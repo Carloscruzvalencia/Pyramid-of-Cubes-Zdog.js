@@ -8,7 +8,7 @@
 ## se crea la primera linea de 10
 
 ![primer paso](progres/1.png)
-- el objeto esta creado con el siguiente codigo y se inserta en un bucle para generar los demas cubos
+- el objeto esta creado con el siguiente codigo y despues se inserta en un bucle para generar los demas cubos
 ```JavaScript
 let box = new Zdog.Box({
     addTo: Piramid,
