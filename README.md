@@ -23,6 +23,7 @@ let box = new Zdog.Box({
     bottomFace: false,
     translate: {x: i * 36,y: i * 101},
     rotate: {x: 0,y: 1,z: 1},
+    }
 ```
 
 </details>
