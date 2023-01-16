@@ -1,14 +1,14 @@
-let illo = new Zdog.Illustration({
+let Piramid = new Zdog.Illustration({
     element: '.zdog-canvas',
+    centered: true,
+    resize: 'fullscreen',
+    translate: {
+        y:-600
+    },
+    zoom: 0.7
 });
-
-let rect = new Zdog.Rect({
-    addTo: illo,
-    width: 120,
-    height: 100,
-    stroke: 10,
-    color: '#E62',
-});
-
-
-illo.updateRenderGraph();
+function animate() {
+    Piramid.updateRenderGraph();
+    requestAnimationFrame(animate);
+}
+animate();
