@@ -1,5 +1,4 @@
-faces = ['false','false','false','false','false','false','false','false','false','#E62']
-
+ps = 10
 for (i = 0; i != 10; i++) {
     let box = new Zdog.Box({
         addTo: Piramid,
@@ -8,27 +7,23 @@ for (i = 0; i != 10; i++) {
         depth: 80,
         stroke: false,
         color: '#C25', // default face color
-        leftFace: false,
-        rightFace: faces[i],
+        leftFace: '#EA0',
+        rightFace: '#E62',
         topFace: '#ED0',
-        bottomFace: false,
+        bottomFace: '#636',
         translate: {
-            x: i * 36,
-            y: i * 101
-        },
-        rotate: {
-        x: 0,
-        y: 1,
-        z: 1
-        },
+            x: i * 120,
+            y: 20
+        }
     });
-    for (j = 0; j != 10; j++) {
+    for (j = 0; j != 9; j++) {
         box.copy({
             // overwrite original options
-            translate: { 
-                x:28,
-                y: 118 
+            translate: {
+                y: ps+=120,
+                x: i * 120
             },
-          });
+        });
     }
+    ps=10
 }
