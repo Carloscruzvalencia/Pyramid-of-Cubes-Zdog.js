@@ -1,11 +1,11 @@
 # objetivo
-- recrear y animar la siguiente imagen en Zdog.js
+- Recrear y animar la siguiente imagen en Zdog.js
 ![inspiracion](inspiration.png))
 
 <details open>
 <summary>Estado actual del proyecto</summary>
 
-## se crea la primera linea de 10
+## Se crea la primera linea de 10
 
 ![primer paso](progres/1.png)
 - el objeto esta creado con el siguiente codigo y despues se inserta en un bucle para generar los demas cubos
@@ -23,7 +23,7 @@ let box = new Zdog.Box({
     bottomFace: false,
     translate: {x: i * 36,y: i * 101},
     rotate: {x: 0,y: 1,z: 1},
-    }
+}
 ```
 
 </details>
