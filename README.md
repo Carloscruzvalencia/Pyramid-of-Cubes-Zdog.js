@@ -21,15 +21,8 @@ let box = new Zdog.Box({
     rightFace: faces[i],
     topFace: '#ED0',
     bottomFace: false,
-    translate: {
-        x: i * 36,
-        y: i * 101
-    },
-    rotate: {
-    x: 0,
-    y: 1,
-    z: 1
-    },
+    translate: {x: i * 36,y: i * 101},
+    rotate: {x: 0,y: 1,z: 1},
 ```
 
 </details>
