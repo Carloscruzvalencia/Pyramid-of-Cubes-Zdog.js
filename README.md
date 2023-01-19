@@ -5,7 +5,7 @@
 # Resultado final
 ![Resultado final del proyecto](progres/3.gif)
 
-
+[Miralo en la web](https://carloscruzvalencia.github.io/Pyramid-of-Cubes-Zdog.js/)
 <details open>
 <summary>Documentacion del proyecto</summary>
 
@@ -86,4 +86,6 @@ for (i = 0; i != GroupOfCubes.length; i++) {
 # Resultado final
 ![Resultado final del proyecto](progres/3.gif)
 
+visita la pagina web
+[Pagina web](https://carloscruzvalencia.github.io/Pyramid-of-Cubes-Zdog.js/)
 </details>
