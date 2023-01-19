@@ -57,7 +57,7 @@ GroupOfCubes = [
     '54'
 ]
 ```
-## Cremos un bucle donde animamos todos los cubos
+## Creamos un bucle donde animamos todos los cubos
 ```JavaScript
 for (i = 0; i != GroupOfCubes.length; i++) {
         if (Gcubes.children[GroupOfCubes[i]].translate.z < 131 & i < 32) {
